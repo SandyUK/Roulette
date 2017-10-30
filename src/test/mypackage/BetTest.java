@@ -5,11 +5,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class BetTest {
-	private Bet bet;
+	private BetBasicData bet;
 
 	@Before
 	public void setUp() {
-		this.bet = new Bet("1", 2);
+		this.bet = new BetBasicData("1", 2);
 	}
 
 	@Test
